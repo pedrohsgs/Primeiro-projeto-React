@@ -1,14 +1,19 @@
 header{
     height: 100px;
     background: rgb(129, 129, 129);
+    display: flex;  
+}
 
+.container{
+    margin-top: 1%;
 }
 
 header h1, h2{
     color: rgb(255, 255, 255);
-    padding-left: 20px;
+    text-align: center;
     text-transform: uppercase;
     font-size: 2vw;
+    
 
 }
 
@@ -17,3 +22,4 @@ header h2{
     text-transform: none;
     margin-top: 1vw;
 }
+

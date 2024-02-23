@@ -1,0 +1,26 @@
+.buttons{
+  
+    
+    margin-bottom: 50px;
+}
+
+button{
+    padding: 10px;
+    border: 0;
+    margin-left: 10px;
+    cursor: pointer;
+    background: rgb(129, 129, 129);
+    margin-top: 1vw;
+    color: azure;
+    font-size: 2vw;
+
+}
+
+.contador h1{
+    font-size: 2vw;
+    margin-top: 10vw;
+}
+
+.result{
+    font-size: 2vw;
+}

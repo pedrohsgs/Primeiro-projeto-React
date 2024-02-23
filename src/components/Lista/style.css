@@ -1,0 +1,21 @@
+.img-nj{
+    margin-top: 20px;
+}
+
+img{
+    max-width: 20vw;
+    max-height: 20vw;
+}
+
+.img-nj h1{
+    font-size: 3vw;
+    
+}
+
+.lista{
+    margin-top: 5vw;
+}
+
+.lista strong{
+    justify-content: center;
+}
