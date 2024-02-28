@@ -3,10 +3,12 @@ import { Header } from './components/Hader'
 import './App.css'
 import { Contador } from './components/Contador'
 import { Lista } from './components/Lista'
+import { Footer } from './components/Footer'
+import { Banner } from './components/Banner'
 
 function App() {
 
-  return (  
+  return (
     <>
       <Header title="Projeto React" subTitulo="React" />
 
@@ -18,11 +20,16 @@ function App() {
           <a href="#">Vai para Contato</a>
         </div>
 
-        <Contador/>
+        <Contador />
 
-        <Lista/>
+        <Lista />
+
+        <Banner />
 
       </main>
+
+      <Footer />
+
     </>
   )
 }

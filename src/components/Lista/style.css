@@ -2,9 +2,11 @@
     margin-top: 20px;
 }
 
-img{
+.img1{
     max-width: 20vw;
     max-height: 20vw;
+    border: 5px solid goldenrod;
+    border-radius: 2vw;
 }
 
 .img-nj h1{
@@ -14,8 +16,27 @@ img{
 
 .lista{
     margin-top: 5vw;
+    border: 2px solid black;
+    padding: 1%;
 }
 
 .lista strong{
     justify-content: center;
+}
+
+.listagem{
+    display: flex;
+    flex-direction: column;
+    border-radius: 1px solid red;
+}
+
+.listagem strong, .listagem span{
+    
+    padding: 5px;
+}
+
+.content-listagem{
+
+    height: 332px;
+    overflow: auto;
 }
