@@ -1,5 +1,22 @@
-.img-nj{
+.img-nj {
     margin-top: 20px;
+    display: flex;
+    
+}
+
+.box{
+    display: inline-block;
+    margin-left: 10vw;
+}
+
+.box h1{
+    font-size: 2vw;
+    margin-bottom: 2vw;
+}
+
+.list{
+    margin-top: 2vw;
+    display: flex;
 }
 
 .img1{
@@ -9,17 +26,21 @@
     border-radius: 2vw;
 }
 
-.img-nj h1{
-    font-size: 3vw;
-    
+.img2{
+    max-width: 18vw;
+    max-height: 20vw;
+    border: 5px solid goldenrod;
+    border-radius: 2vw;
 }
 
 .lista{
-    margin-top: 5vw;
-    border: 2px solid black;
-    padding: 1%;
+
+    margin-top: 20px;
 }
 
+.lista h1{
+    margin-bottom: 2vw;
+}
 .lista strong{
     justify-content: center;
 }
@@ -32,11 +53,11 @@
 
 .listagem strong, .listagem span{
     
-    padding: 5px;
+    padding: 3px;
 }
 
 .content-listagem{
 
-    height: 332px;
+    height: 280px;
     overflow: auto;
 }

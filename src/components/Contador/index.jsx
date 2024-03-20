@@ -28,7 +28,6 @@ export function Contador(){
                 <strong>{Contador}</strong>
             </section>
 
-
         </div>
     )
 }

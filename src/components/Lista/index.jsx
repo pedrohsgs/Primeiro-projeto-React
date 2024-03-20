@@ -5,74 +5,93 @@ export const Lista = () => {
     const lista = [
 
         {
-            nome: "Neymar",
+            nome: "Neymar Jr",
             responsavel: "Al-Hillaw",
             valor: "R$ 320.00",
 
         },
 
         {
-            nome: "Neymar",
-            responsavel: "Al-Hillaw",
-            valor: "R$ 320.00",
+            nome: "Cristiano Ronaldo",
+            responsavel: "Al-Nassar",
+            valor: "R$ 350.00",
 
         },
 
         {
-            nome: "Neymar",
-            responsavel: "Al-Hillaw",
-            valor: "R$ 320.00",
+            nome: "Lionel Messi",
+            responsavel: "Inter Miami",
+            valor: "R$ 290.00",
 
         },
 
-        {
-            nome: "Neymar",
-            responsavel: "Al-Hillaw",
-            valor: "R$ 320.00",
-
-        }
     ]
 
     return (
-        <main>
+        <main >
 
-            <section className="img-nj">
+            <section className="list">
 
-                <h1>Lista</h1>
+                <section className="img-nj">
 
-                <img src="https://pbs.twimg.com/media/GCtMFcYW0AAKvjG?format=jpg&name=large" alt="imagem" className="img1" />
+                    <div className="box">
 
-                <p>
-                    neymarjr
-                </p>
+                        <h1>Neymar Jr</h1>
+
+                        <img src="public/imageNJ.png" alt="imagem" className="img1" />
+
+                    </div>
+
+                    <div className="box">
+
+                        <h1>Cristiano Ronaldo</h1>
+                        
+                        <img src="public/imageCR.png" alt="imagem" className="img1" />
+
+                    </div>
+
+                    <div className="box">
+
+                        <h1>Lionel Messi</h1>
+                        
+                        <img src="public/imageMS.png" alt="imagem" className="img1" />
+
+                    </div>
+
+
+
+
+
+
+
+                </section>
+
+                <section className="lista">
+
+                    <h1>
+                        Descrição
+                    </h1>
+
+                    <article className="content-listagem">
+                        {lista.map((item, index) => {
+                            return (
+
+                                <div key={index} className="listagem">
+                                    <strong>Nome: </strong> <span>{item.nome}</span><br />
+                                    <strong>Responsavel: </strong> <span>{item.responsavel}</span><br />
+                                    <strong>Valor: </strong><span>{item.valor}</span><br />
+
+                                </div>
+
+                            )
+
+                        })}
+
+                    </article>
+
+                </section>
 
             </section>
-
-            <section className="lista">
-
-                <h1>
-                    Descrição
-                </h1>
-
-                <article className="content-listagem">
-                    {lista.map((item, index) => {
-                        return(
-
-                        <div key={index} className="listagem">
-                            <strong>Nome: </strong> <span>{item.nome}</span><br />
-                            <strong>Responsavel: </strong> <span>{item.responsavel}</span><br />
-                            <strong>Valor: </strong><span>{item.valor}</span><br />
-
-                        </div>
-
-                        )
-
-                    })}
-
-                </article>
-
-            </section>
-
 
         </main >
     )
